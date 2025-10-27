@@ -1,0 +1,15 @@
+adoptaya.online, www.adoptaya.online {
+    root * /var/www/html
+    php_fastcgi wordpress:9000
+    encode gzip
+    file_server
+
+    log {
+        output stdout
+        format single_field common_log
+    }
+
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    }
+}
