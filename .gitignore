@@ -1,7 +1,16 @@
+# Node / build
 node_modules/
 dist/
 .env
+
+# Wordpress
 wp-content/uploads/
 wp-content/cache/
-vendor/
+wp-content/upgrade/
+wp-content/backups/
+wp-config.php
+
+# Docker
+*.log
+.vscode/
 .DS_Store
