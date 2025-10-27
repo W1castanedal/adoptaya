@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+wp-content/uploads/
+wp-content/cache/
+vendor/
+.DS_Store
